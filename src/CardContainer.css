@@ -1,0 +1,23 @@
+.card-container {
+    display: flex;
+    gap: 16px; 
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+  
+.card-container.column {
+    flex-direction: column;
+}
+  
+.card-container.row {
+    flex-direction: row;
+}
+  
+.card {
+    padding: 16px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+  
