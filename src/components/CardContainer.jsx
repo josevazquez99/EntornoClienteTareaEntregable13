@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 const CardContainer = ({ children }) => {
-  const [layout, setLayout] = useState('column'); // Valor por defecto en columnas
+  const [layout, setLayout] = useState('column'); 
 
   const handleLayoutChange = (event) => {
     setLayout(event.target.value);
